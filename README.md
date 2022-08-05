@@ -5,3 +5,5 @@ The public subnets are supported with the NAT gateways to allow internet access 
 the private subnets through the servers in the public subnets.
 A vpc peering connection is established between the vpc-1 and vpc-2 through the public route table in
 vpc-1 and the private route table in vpc-2.
+
+Leveraging the vpc peering connection to allow communication between aws services across the vpcs
